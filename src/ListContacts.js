@@ -2,11 +2,13 @@ import React, {Component} from 'react';
 
 class ListContacts extends Component{
     render(){
-        console.log("Props", this.props.contacts);
+        return (
+            <ol className="list-contacts">
+                {this.props.contacts.map((contact) =>
+                    <li key={contact.id}>{contact.name}</li>
+                )}
 
-        return <ol className="list-contacts">
-
-        </ol>
+            </ol>)
     }
 
 }
