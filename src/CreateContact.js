@@ -1,16 +1,11 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react';
 
-
-class CreateContact extends Component{
-
+class CreateContact extends Component {
     render() {
         return (
-            <div>
-                Creating contact
-            </div>
+            <div>Create Contact!</div>
         )
     }
-
 }
 
 export default CreateContact
