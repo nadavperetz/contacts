@@ -77,8 +77,3 @@ class ListContacts extends Component{
 
 
 export default ListContacts
-
-// "Oi pessoal, tudo bem?\n" +
-// "Estou aula 3, parte 7 (Componentes Controlados)\n" +
-// "\n" +
-// "No segundo vídeo, a propTypes é declarada como static. "
